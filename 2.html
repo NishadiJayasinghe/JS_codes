@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	
+	function doFirst(){
+		document.write("I'm the first one.<br/>");
+	}
+
+	function doSecond(){
+		document.write("I'm second.");
+	}
+
+	function start(){
+		doFirst();
+		doSecond();
+	}
+
+	start();
+
+	//loop a function
+	function first(){
+		document.write("<br/>first   ");
+		second();
+	}
+	function second(){
+		document.write("second");
+		first();
+	}
+
+	first();
+</script>
+
+</body>
+</html>
