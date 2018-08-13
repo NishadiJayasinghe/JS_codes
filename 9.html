@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function validator(){
+			if (document.nishadisForm.thebox.checked) {
+				alert("yes its checked!");}
+			else{
+				alert("No its not checked");	
+			}
+		}
+		
+	</script>
+</head>
+<body>
+<form name="nishadisForm">
+	<input type="checkbox" name="thebox"/>
+	<input type="button" value="press me!" onClick="validator()"/>
+</form>
+</body>
+</html>
